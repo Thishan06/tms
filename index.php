@@ -6,31 +6,29 @@ include('includes/config.php');
 <!doctype html>
 <html lang="en-gb" class="no-js">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tourest - Explore the World</title>
 
-  <title>My Travel - my memory</title>
-  <meta name="description" content="Traveller">
-  <meta name="author" content="WebThemez">
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <!--  <link href="assets/css/bootstrap.css" rel='stylesheet' type='text/css' /> -->
-  <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
-  <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-  <link rel="stylesheet" type="text/css" href="css/da-slider.css" />
-  <!-- Owl Carousel Assets -->
-  <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet" href="css/style.css" />
-  <!-- Font Awesome -->
-  <!--animate-->
-  <link href="assets/css/animate.css" rel="stylesheet" type="text/css" media="all">
-  <link href="font/css/font-awesome.min.css" rel="stylesheet">
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-
-<!-- 
-  - google font link
--->
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Comforter+Brush&family=Heebo:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
 
 
 </head>
@@ -39,44 +37,150 @@ include('includes/config.php');
  <?php include('includes/header.php'); ?>
  <!--/.header-->
  <div id="#top"></div>
- <section id="home">
-  <div class="banner-container">
-      <img src="images/banner-bg.jpg" alt="banner" />
-    <div class="container banner-content">
-      <div id="da-slider" class="da-slider">
-        <div class="da-slide">
-          <h2>Travel Plans</h2>
-          <p>Get your plans right away.. enjoy!!!</p>
-          <a href="#" class="da-link">Read more</a>
-          <div class="da-img"></div>
+
+ <section class="section hero"
+        style="background-image: url('./assets/images/hero-bg-bottom.png') url('./assets/images/hero-bg-top.png')">
+        <div class="container">
+
+          <img src="./assets/images/shape-1.png" width="61" height="61" alt="Vector Shape" class="shape shape-1">
+
+          <img src="./assets/images/shape-2.png" width="56" height="74" alt="Vector Shape" class="shape shape-2">
+
+          <img src="./assets/images/shape-3.png" width="57" height="72" alt="Vector Shape" class="shape shape-3">
+
+          <div class="hero-content">
+
+            <p class="section-subtitle">Explore Your Travel</p>
+
+            <h2 class="hero-title">Trusted Travel Agency</h2>
+
+            <p class="hero-text">
+              I travel not to go anywhere, but to go. I travel for travel's sake the great affair is to move.
+            </p>
+
+            <div class="btn-group">
+              <a href="#" class="btn btn-primary">Contact Us</a>
+
+              <a href="#" class="btn btn-outline">Learn More</a>
+            </div>
+
+          </div>
+
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" width="686" height="812" loading="lazy" alt="hero banner"
+              class="w-100">
+          </figure>
+
         </div>
-        <div class="da-slide">
-          <h2>Amazing Tours</h2>
-          <p>Travel you remember for life long!!</p>
-          <a href="#" class="da-link">Read more</a>
-          <div class="da-img"></div>
+      </section>
+
+ <section class="section destination">
+        <div class="container">
+
+          <p class="section-subtitle">Destinations</p>
+
+          <h2 class="h2 section-title">Choose Your Place</h2>
+
+          <ul class="destination-list">
+
+            <li class="w-50">
+              <a href="#" class="destination-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/destination-1.jpg" width="1140" height="1100" loading="lazy"
+                    alt="Malé, Maldives" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Malé</p>
+
+                  <h3 class="h3 card-title">Maldives</h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li class="w-50">
+              <a href="#" class="destination-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/destination-2.jpg" width="1140" height="1100" loading="lazy"
+                    alt="Bangkok, Thailand" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Bangkok</p>
+
+                  <h3 class="h3 card-title">Thailand</h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="destination-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/destination-3.jpg" width="1110" height="480" loading="lazy"
+                    alt="Kuala Lumpur, Malaysia" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Kuala Lumpur</p>
+
+                  <h3 class="h3 card-title">Malaysia</h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="destination-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/destination-4.jpg" width="1110" height="480" loading="lazy"
+                    alt="Kathmandu, Nepal" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Kathmandu</p>
+
+                  <h3 class="h3 card-title">Nepal</h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="destination-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/destination-5.jpg" width="1110" height="480" loading="lazy"
+                    alt="Jakarta, Indonesia" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <p class="card-subtitle">Jakarta</p>
+
+                  <h3 class="h3 card-title">Indonesia</h3>
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
         </div>
-        <div class="da-slide">
-          <h2>Best Travel Travel</h2>
-          <p>Get best deals at our place</p>
-          <a href="#" class="da-link">Read more</a>
-          <div class="da-img"></div>
-        </div> 
-      </div>
-    </div>
-  </div>
-</section>
-<section id="introText">
-  <div class="container">
-    <div class="text-center adeInDown animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
-      <h1>My Travel Gives You a Great Holiday Package</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse interdum erat et neque tincidunt volutpat. Cras eget augue id dui varius pretium. Cras posuere dolor risus. Pellentesque elementum ultricies quam, sit amet rhoncus nisl viverra in. Cras imperdiet nisi a euismod molestie. Ut a metus arcu. </p>
-    </div>
-  </div>
-</section>
-<!--About-->
+      </section>
 
 
+   <!-- 
+        - #ABOUT
+      -->
+
+      
+
+<section id="aboutUs" class="secPad">
 <section class="section about">
         <div class="container">
 
@@ -149,43 +253,24 @@ include('includes/config.php');
           </div>
 
           <figure class="about-banner">
-            <img src="admin/pacakgeimages/<?php echo htmlentities($result->PackageImage);?>" width="756" height="842" loading="lazy" alt="" class="w-100">
+            <img src="./assets/images/about-banner.png" width="756" height="842" loading="lazy" alt="" class="w-100">
           </figure>
 
         </div>
-      </section>
-
-<section id="aboutUs" class="secPad">
-  <div class="container">
-
-    <div class="heading text-center adeInDown animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
-      <!-- Heading -->
-      <h2>About Us</h2>
-      <p>At lorem Ipsum available, but the majority have suffered alteration in some form by injected humour.</p>
-    </div>
-    <div class="row adeInDown animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
-      <div class="col-md-4">
-        <img src="images/about.jpg" alt="" class="img-responsive img-thumbnail">
-      </div>
-      <div class="col-md-8">
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rquia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p> 
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasiest, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p> 
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasiest, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. </p> 
-      </div>
-    </div>
-  </div>   
+      </section>  
 </section>
 
 
 <!--Package-->
-<section id="packages" class="secPad">
+<section id="packages" class="section popular">
   <div class="container">
-    <div class="heading text-center">
-      <h2>Most Popular Packages</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-    </div>
+    
+    <p class="section-subtitle">Featured Tours</p>
 
-    <div class="row">
+     <h2 class="h2 section-title">Most Popular Tours</h2>
+  
+
+ 
       <?php 
       $sql = "SELECT * from tbltourpackages order by rand() ";
       $query = $dbh->prepare($sql);
@@ -197,31 +282,70 @@ include('includes/config.php');
         foreach($results as $result)
         { 
       ?>
-          <div class="col-md-3">
+
+      <ul class="popular-list">
+
+
+  <div class="popular-card">
+
+    <figure class="card-banner">
+      <a href="package_details.php?pkgid=<?php echo htmlentities($result->PackageId);?>">
+        <img src="admin/pacakgeimages/<?php echo htmlentities($result->PackageImage);?>" width="740" height="518" loading="lazy"
+          alt="Kuala Lumpur, Malaysia" class="img-cover">
+      </a>
+    </figure>
+
+    <div class="card-content">
+
+      <!-- <div class="card-wrapper">
+        <div class="card-price">From $50.00</div>
+
+        <div class="card-rating">
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+
+   
+        </div>
+      </div> -->
+
+      <h3 class="card-title">
+        <a href="package_details.php?pkgid=<?php echo htmlentities($result->PackageId);?>"><?php echo htmlentities($result->PackageName);?></a>
+      </h3>
+      <address class="card-location"><?php echo htmlentities($result->PackageLocation);?></address>
+    </div>
+        </div>
+      </ul>
+
+
+         <!-- <div class="col-md-3">
             <div class="card package-card">
               <figure class="card-banner">
-                <a href="#">
+                <a href="package_details.php?pkgid=<?php echo htmlentities($result->PackageId);?>">
                   <img src="admin/pacakgeimages/<?php echo htmlentities($result->PackageImage);?>" width="740" height="518" loading="lazy" alt="Kuala" class="img-cover">
                 </a>
               </figure>
               <div class="card-content">
                 <h4 class="card-title">
-                  <a href="#"><?php echo htmlentities($result->PackageName);?></a>
+                  <a href="package_details.php?pkgid=<?php echo htmlentities($result->PackageId);?>"><?php echo htmlentities($result->PackageName);?></a>
                 </h4>
                 
                 <address class="card-location"><?php echo htmlentities($result->PackageLocation);?></address>
               </div>
             </div>
-          </div>
+          </div> -->
       <?php 
         }
       } 
       ?>
-    </div>
+  
   </div>
 </section>
 
 
+    
 
 
 

@@ -43,7 +43,7 @@
         <ul class="navbar-list">
 
           <li>
-            <a href="#home" class="navbar-link scroll-link">Home</a>
+            <a href="index.php" class="navbar-link scroll-link">Home</a>
           </li>
 
           <li>
@@ -51,7 +51,7 @@
           </li>
 
           <li>
-            <a href="#packages" class="navbar-link scroll-link">Tour places</a>
+            <a href="package_details.php?pkgid=<?php echo htmlentities($result->PackageId);?>" class="navbar-link scroll-link">Tour places</a>
           </li>
 
           <li>

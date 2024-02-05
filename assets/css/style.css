@@ -100,59 +100,6 @@ li { list-style: none; }
 
 a { text-decoration: none; }
 
-.package-list-scroll {
-  overflow-x: auto;
-}
-
-.horizontal-scroll-container {
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-.popular-card {
-  flex: 0 0 auto; /* Ensure each card is the same width */
-  margin-right: 15px; /* Adjust margin as needed */
-}
-
-.package-card {
-  overflow-x: hidden;
-  white-space: nowrap;
-}
-
-.scroll-btn {
-  cursor: pointer;
-  font-size: 24px;
-  margin: 10px;
-}
-
-.package-card {
-  border: 1px solid #ddd;
-  margin-bottom: 20px;
-  transition: box-shadow 0.3s ease-in-out;
-}
-
-.package-card:hover {
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.card-banner img {
-  max-width: 100%;
-  height: auto;
-}
-
-.card-content {
-  padding: 15px;
-}
-
-.card-title a {
-  color: #333;
-  text-decoration: none;
-}
-
-.card-location {
-  color: #888;
-}
-
 a,
 img,
 span,
